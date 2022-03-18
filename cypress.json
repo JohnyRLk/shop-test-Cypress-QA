@@ -1,0 +1,14 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl":"https://www.demoblaze.com/index.html",
+  "ignoreTestFiles": ["*.js", "*.md", "*.ts"],
+    "reporter": "./node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+      "reportDir": "cypress/reports/separate-reports",
+      "screenshotOnRunFailure": true,
+      "quite": true,
+      "overwrite": true,
+      "html": true,
+      "json": true
+    }
+}
